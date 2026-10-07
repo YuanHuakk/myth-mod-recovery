@@ -1,0 +1,21 @@
+{
+  "name": "myth-mod-recovery",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "myth-recover": "bin/myth-recover.js"
+  },
+  "scripts": {
+    "recover": "node bin/myth-recover.js recover",
+    "verify": "node bin/myth-recover.js verify",
+    "install-local": "node bin/myth-recover.js install",
+    "profiles": "node bin/myth-recover.js profiles"
+  },
+  "engines": {
+    "node": ">=18.3.0"
+  },
+  "os": [
+    "win32"
+  ]
+}
